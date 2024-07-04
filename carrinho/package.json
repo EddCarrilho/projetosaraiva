@@ -1,22 +1,18 @@
 {
-  "name": "livros",
+  "name": "carrinho",
   "version": "1.0.0",
-  "description": "Projeto da Livraria Saraiva - Microservico Livros",
+  "description": "Carrinho de compras do site saraiva",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/index.js"
   },
   "keywords": [
-    "Nodejs",
-    "Express",
-    "mysql2",
-    "postman",
-    "jwt",
-    "servidor",
-    "bando",
+    "Carrinho",
     "de",
-    "dados"
+    "compras",
+    "da",
+    "livraria"
   ],
   "author": "Eduardo Sewnarine Carrilho",
   "license": "ISC",
@@ -27,6 +23,6 @@
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
-    "mysql2": "^3.10.1"
+    "mysql2": "^3.10.2"
   }
 }
