@@ -1,6 +1,6 @@
  require("dotenv").config();
  const express = require("express");
- const route_carrinho = require("./router/carrinho/carrinho.js");
+ const route_carrinho = require("./routes/carrinho/carrinho.js");
  const cors = require("cors");
 
  const app=express();
